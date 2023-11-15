@@ -1,0 +1,17 @@
+#content {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    gap: 6px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
